@@ -26,7 +26,7 @@ public class Order implements Serializable{
 	private String address;
 	private Double latitude;
 	private Double longitude;
-	private Instant  moment;
+	private Instant moment;
 	private OrderStatus status;
 	
 	@ManyToMany
